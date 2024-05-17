@@ -257,19 +257,19 @@ look like the following:
   "name": "My Company",
   "implementation": "My implementation",
   "issuers": [{
-    "id": "",
+    "id": "did:web:example.com",
     "endpoint": "https://issuer.mycompany.com/credentials/issue",
     "method": "POST",
     "tags": ["vc2.0"]
   }],
   "verifiers": [{
-    "id": "",
+    "id": "did:web:example.com",
     "endpoint": "https://verifier.mycompany.com/credentials/verify",
     "method": "POST",
     "tags": ["vc2.0"]
   }],
   "vpVerifiers": [{
-    "id": "",
+    "id": "did:web:example.com",
     "endpoint": "https://verifier.mycompany.com/presentations/verify",
     "method": "POST",
     "tags": ["vc2.0"]
@@ -290,19 +290,19 @@ module.exports = {
       "name": "My Company",
       "implementation": "My implementation",
       "issuers": [{
-        "id": "",
+        "id": "did:web:example.com",
         "endpoint": "http://localhost:3332/credentials/issue",
         "method": "POST",
         "tags": ["vc2.0"]
       }],
       "verifiers": [{
-        "id": "",
+        "id": "did:web:example.com",
         "endpoint": "http://localhost:3332/credentials/verify",
         "method": "POST",
         "tags": ["vc2.0"]
       }],
       "vpVerifiers": [{
-        "id": "",
+        "id": "did:web:example.com",
         "endpoint": "http://localhost:3332/presentations/verify",
         "method": "POST",
         "tags": ["vc2.0"]
